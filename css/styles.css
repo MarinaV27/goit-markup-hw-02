@@ -13,7 +13,8 @@ ul {
 .link {
     text-decoration: none;
 }
-.active:active { text-decoration: underline;
+.active:active {
+     text-decoration: underline;
 
 }
     
@@ -35,9 +36,10 @@ ul {
         font-weight: 500;
         line-height: 1.5;
         /* 150% */
+        
 }
 .menu-link:hover,
-.menu-link:focus {
+.menu-link:focus{
     color: #404BBF;
 } 
 .page-address {
@@ -87,6 +89,8 @@ ul {
         font-weight: 500;
         line-height: 1.2;
         /* 120% */
+        letter-spacing: 0.02em;
+
 }
 .title-second {
     color:#2E2F42;
@@ -95,6 +99,7 @@ ul {
     font-weight: 700;
     line-height: 1.11;
     /* 111.111% */
+    letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
 }
